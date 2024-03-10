@@ -5,7 +5,8 @@
     android:id="@+id/textsize"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="@color/purple">
 
     <TextView
         android:id="@+id/textView2"
@@ -30,9 +31,11 @@
         android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
         android:ems="10"
+        android:hint="Username"
         android:inputType="text"
-        android:text="Name"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="248dp" />
 
@@ -40,7 +43,10 @@
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="10dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="319dp" />
